@@ -1,0 +1,16 @@
+{
+    "name": "ventive/development-standards",
+    "description": "Software Development Standards for Ventive LLC.",
+    "type": "prroject",
+    "require": {
+        "sculpin/sculpin": "@dev"
+    },
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "Jeremy Anderson",
+            "email": "jeremy@getventive.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
