@@ -36,9 +36,9 @@
 
 - **Continuing Education Playlists on YouTube**
 
+  - [Computer Programming](https://www.youtube.com/playlist?list=PLAVpGyGR5CAzCm5VFFw0mOW-gjznsb04o)
   - [DevOps](https://www.youtube.com/playlist?list=PLAVpGyGR5CAyI82XAU6n-2V8Bjbv2GMtl)
   - [TDD is Not Dead, it Just Smells Funny](https://www.youtube.com/playlist?list=PLAVpGyGR5CAzJMocNAEiYAHM6ROmuOdAF)
-  - [Computer Programming](https://www.youtube.com/playlist?list=PLAVpGyGR5CAzCm5VFFw0mOW-gjznsb04o)
   - [Business Philosophy](https://www.youtube.com/playlist?list=PLAVpGyGR5CAwTi9uhs0lXwx-XttF8W7_i)
   - [Fun Fun Function!](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos)
 
