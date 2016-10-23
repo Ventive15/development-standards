@@ -26,3 +26,14 @@ footer.container {
         padding-bottom: 40px;
     }
 }
+.navbar .navbar-inverse .navbar-fixed-top, .navbar-inverse .navbar-inner{
+    background-color: #004e68;
+    background-image: linear-gradient(to bottom, #004e68, #1a2434);
+    background-repeat: repeat-x;
+}
+.navbar-inverse .brand, .navbar-inverse .nav>li>a {
+    color:#d2d2d2;
+}
+.navbar-inverse .brand:hover, .navbar-inverse .nav>li>a:hover, .navbar-inverse .brand:focus, .navbar-inverse .nav>li>a:focus  {
+    color:#e2e2e2;
+}
