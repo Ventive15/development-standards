@@ -4,29 +4,30 @@ categories:
     - features
 
 ---
-You're all programmers, right? And you're writing code snippets on your Sculpin
-powered blog? Yeah. So you want some highlighting with your static site generation?
+You're all programmers, right? Yeah. So you want some highlighting with your static site generation?
 Here you go!
 
-    namespace Foo;
+``` php
+namespace Foo;
 
-    /**
-     * Awesome Contrived Example.
-     */
-    class Bar implements BarInterface
+/**
+ * Awesome Contrived Example.
+ */
+class Bar implements BarInterface
+{
+    private $baz;
+
+    public function __construct(BazInterface $baz)
     {
-        private $baz;
-
-        public function __construct(BazInterface $baz)
-        {
-            $this->baz = $baz;
-        }
-
-        public function doIt()
-        {
-            return $this->baz->do('it');
-        }
+        $this->baz = $baz;
     }
+
+    public function doIt()
+    {
+        return $this->baz->do('it');
+    }
+}
+```
 
 You can also use [fenced code blocks][fcb] with a syntax declaration at the top.
 You can use either `~` or <code>`</code> to mark them.

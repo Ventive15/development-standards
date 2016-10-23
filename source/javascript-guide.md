@@ -4,4 +4,4 @@ title: Javascript
 ---
 # {{page.title}}
 
-Here is a little information about the author or the blog.
+- https://github.com/rwaldron/idiomatic.js/
