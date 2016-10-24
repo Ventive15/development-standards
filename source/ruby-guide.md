@@ -3,4 +3,5 @@ layout: default
 title: Ruby
 ---
 # {{page.title}}
-- https://github.com/styleguide/ruby
+
+For now you may simply refer to the [GitHub Style Guide for Ruby](https://github.com/styleguide/ruby)
