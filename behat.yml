@@ -1,1 +1,6 @@
+# behat.yml
 default:
+    extensions:
+        Behat\MinkExtension:
+            base_url: http://development-standards.dev
+            goutte: ~

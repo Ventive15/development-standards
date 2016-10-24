@@ -1,5 +1,4 @@
 <?php
-namespace Ventive;
 use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Behat\Context\Context;
 use Behat\MinkExtension\Context\MinkContext;
@@ -21,6 +20,23 @@ class FeatureContext extends MinkContext implements Context
      */
     public function __construct()
     {
+    }
+
+    /**
+     * @When /^I click on "((?i)[^"]*)"$/
+     */
+    public function iClickOn($locator)
+    {
+        $session = $this->getSession(); // get the mink session
+        $element = $session->getPage()->findLink($locator); // runs the actual query and returns the element
+
+        // errors must not pass silently
+        if (null === $element) {
+            throw new \InvalidArgumentException(sprintf('Could not evaluate CSS selector: "%s"', $locator));
+        }
+
+        // ok, let's click on it
+        $element->click();
     }
 
 }

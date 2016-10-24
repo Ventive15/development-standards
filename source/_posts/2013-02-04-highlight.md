@@ -30,7 +30,9 @@ class Bar implements BarInterface
 ```
 
 You can use [fenced code blocks][fcb] with a syntax declaration at the top.
+
 You can use either `~` or <code>`</code> to mark them.
+
 [fcb]: http://michelf.ca/projects/php-markdown/extra/#fenced-code-blocks
 
 
