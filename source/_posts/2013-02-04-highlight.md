@@ -21,7 +21,7 @@ class Bar implements BarInterface
     {
         $this->baz = $baz;
     }
-
+    
     public function doIt()
     {
         return $this->baz->do('it');
