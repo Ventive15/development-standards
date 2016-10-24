@@ -2,6 +2,6 @@
 
 *a work in progress, please feel free to contribute*
 
-### A mostly unfinished guide to development practices @Ventive15
+### A mostly unfinished guide to development standards and best practices
 
 -----------------------------------------------------------------
