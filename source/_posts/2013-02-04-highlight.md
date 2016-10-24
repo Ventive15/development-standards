@@ -29,7 +29,7 @@ class Bar implements BarInterface
 }
 ```
 
-You can use [fenced code blocks][fcb] with a syntax declaration at the top.
+When writing new content for this site you can use [fenced code blocks][fcb] with a syntax declaration at the top.
 
 You can use either `~` or <code>`</code> to mark them.
 
