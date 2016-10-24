@@ -12,6 +12,12 @@ To install it and start contributing `git clone https://github.com/Ventive15/dev
 then run `composer install`
 
 Add new content pages by creating Markdown files in the root of `source/`. You can write blog entries in `_posts`
+Add new tests by writing a user story in `features/` and automating it in `features/bootstrap/FeatureContext.php` 
+or by extending that class. Run the tests by executing `vendor/bin/behat`. 
+
+- Pull requests without tests will be rejected, always. 
+- Pull requests with failing tests will not be merged.
+- Pull requests with meaningless tests will get friendly tutoring on how to write a better test.
 
 Sculpin currently uses [michelf/php-markdown](https://packagist.org/packages/michelf/php-markdown), check there for 
 specific Markdown guidelines.
@@ -24,4 +30,4 @@ specific Markdown guidelines.
 * Check your spelling and grammar.
 * Make sure your text editor is set to remove trailing whitespace.
 
-Thank you for your suggestions!
+#### Thank you for your suggestions!

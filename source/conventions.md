@@ -11,14 +11,18 @@ This guide exists to provide a marginally sane set of defaults for building soft
 ### Client conventions override these defaults.
 
 We are a client services company, and therefore our clients are the primary focus. We usually adopt their coding 
-standards, please check with your Project Manager for direction if you are not sure what to do.
-**The conventions and practices specified in the project on which one is working are the ultimate authority.** 
-The general conventions presented on this site are guidance, not immutable laws.
+standards.
+
+**The conventions specified within a project are the ultimate authority.** 
+
+The conventions presented on this site are guidance, not laws.
+
 For example, these general conventions indicate that we default to Unix Newline characters, but a client 
 project built on Microsoft .NET would most likely use Windows Newline standards. 
 There are times we need to integrate with Version Control Systems other than Git, and these decisions are negotiated 
-by the Ventive Project Management Team on a case by case basis. When in doubt, ask someone familiar with the project 
-on which you are working.
+by the Ventive Project Management Team on a case by case basis. 
+
+When in doubt, ask someone familiar with the project on which you are working.
 
 ### The Basics
 

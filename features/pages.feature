@@ -65,3 +65,9 @@ Scenario: Home page loads
   When I click on "Coding Standards"
   Then I should be on "/"
   And I should see "Ventive Development Standards"
+
+  Scenario: Contribution page loads
+    Given I am on "/"
+    When I click on "contribute"
+    Then I should be on "/contributing/"
+    And I should see "Contributions Guide"
