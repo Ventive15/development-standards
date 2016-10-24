@@ -33,6 +33,17 @@ footer.container {
 .navbar-inverse .brand, .navbar-inverse .nav>li>a {
     color:#d2d2d2;
 }
-.navbar-inverse .brand:hover, .navbar-inverse .nav>li>a:hover, .navbar-inverse .brand:focus, .navbar-inverse .nav>li>a:focus  {
+.navbar-inverse .brand:hover,
+.navbar-inverse .nav>li>a:hover,
+.navbar-inverse .brand:focus,
+.navbar-inverse .nav>li>a:focus  {
     color:#e2e2e2;
+}
+@media (max-width: 979px) {
+    .navbar-inverse .nav-collapse .nav>li>a:hover,
+    .navbar-inverse .nav-collapse .nav>li>a:focus,
+    .navbar-inverse .nav-collapse .dropdown-menu a:hover,
+    .navbar-inverse .nav-collapse .dropdown-menu a:focus {
+        background-color: #002c40;
+    }
 }
