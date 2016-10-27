@@ -54,5 +54,7 @@ h1 {
     line-height:1.5rem;
 }
 .navbar .nav>li>a {
+    font-family: 'Open Sans';
+    font-weight:200;
     padding:12px 15px 10px;
 }
