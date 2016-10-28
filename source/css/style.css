@@ -58,3 +58,7 @@ h1 {
     font-weight:200;
     padding:12px 15px 10px;
 }
+
+.navbar .brand {
+    padding:7px 20px 10px;
+}
