@@ -11,9 +11,7 @@ It is tested using [Behat](http://behat.org/en/latest/).
 To install it and start contributing `git clone https://github.com/Ventive15/development-standards.git` 
 then run `composer install`
 
-Run `sculpin generate` to generate dev output, and serve the site from `output_dev` to check what it builds 
-
-
+Run `sculpin generate` to generate output, and serve the site from `docs` to check what it builds
 
 Add new content pages by creating Markdown files in the root of `source/`. You can write blog entries in `_posts`
 Add new tests by writing a user story in `features/` and automating it in `features/bootstrap/FeatureContext.php` 
@@ -29,10 +27,10 @@ Sculpin currently uses [michelf/php-markdown](https://packagist.org/packages/mic
 specific Markdown guidelines.
 
 ### Your pull request should adhere to the following:
-- Run `sculpin generate --env=prod` to *build the production site, before issuing a pull request.* 
+- Remember to run `sculpin generate` to *build the production site, before issuing a pull request.*
 - Please make a a separate pull request for individual commit.
 - Enter a meaningful pull request title.
 - Please keep descriptions short, simple and clear.
 - Check your spelling and grammar.
 - Make sure your text editor is set to remove trailing whitespace.
-#### Thank you for your suggestions!
+#### Thank you for your help!
