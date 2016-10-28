@@ -4,3 +4,4 @@ dist/
 npm-debug.log
 output_dev/
 /vendor/
+info.php
