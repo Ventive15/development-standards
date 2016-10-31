@@ -9,7 +9,7 @@ before_script:
   - phpenv config-rm xdebug.ini
   - composer install --prefer-source
   - vendor/bin/sculpin generate
-  - vendor/bin/sculpin serve
+  - vendor/bin/sculpin serve &
 script:
   # Run the tests!
   - vendor/bin/behat --config travis-behat.yml
