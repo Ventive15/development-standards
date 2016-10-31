@@ -62,7 +62,7 @@ Scenario: Team Working Agreement page loads
 
 Scenario: Home page loads
   Given I am on "/blog/"
-  When I click on "Coding Standards"
+  When I click on "Ventive"
   Then I should be on "/"
   And I should see "Ventive Development Standards"
 
